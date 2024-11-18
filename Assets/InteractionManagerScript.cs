@@ -9,6 +9,7 @@ public class InteractionManagerScript : MonoBehaviour
     public GameObject theCamera;
     public GameObject activeList;
     public Material nodeMat;
+    public AudioSource nodeAudioSource;
 
     private bool increasing = false;
     // Start is called before the first frame update
@@ -83,14 +84,22 @@ public class InteractionManagerScript : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log(hit.collider.gameObject.name);
-                Material theStoredMaterial = hit.collider.gameObject.GetComponent<NodeLoadingScript>().myMaterial;
-                RenderSettings.skybox = theStoredMaterial;
+                if (hit.collider.gameObject.tag != "infoNode")
+                {
+                    Debug.Log(hit.collider.gameObject.name);
+                    Material theStoredMaterial = hit.collider.gameObject.GetComponent<NodeLoadingScript>().myMaterial;
+                    RenderSettings.skybox = theStoredMaterial;
 
-                GameObject theNodeList = hit.collider.gameObject.GetComponent<NodeLoadingScript>().myNodeList;
-                activeList.SetActive(false);
-                theNodeList.SetActive(true);
-                activeList = theNodeList;
+                    GameObject theNodeList = hit.collider.gameObject.GetComponent<NodeLoadingScript>().myNodeList;
+                    activeList.SetActive(false);
+                    theNodeList.SetActive(true);
+                    activeList = theNodeList;
+                }
+                else if (hit.collider.gameObject.tag == "infoNode")
+                {
+                    AudioSource audioSource = hit.collider.gameObject.GetComponent<AudioSource>();
+                    audioSource.Play();
+                }
             }
         }
     }
