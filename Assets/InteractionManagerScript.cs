@@ -10,6 +10,7 @@ public class InteractionManagerScript : MonoBehaviour
     public GameObject activeList;
     public Material nodeMat;
     public AudioSource nodeAudioSource;
+    public Canvas nodeCanvas;
 
     private bool increasing = false;
     // Start is called before the first frame update
