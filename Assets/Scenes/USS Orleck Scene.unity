@@ -240,7 +240,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: cicTechInfo
+      value: cicTechInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -984,7 +984,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: servingAreaRoomInfo
+      value: servingAreaRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -1057,7 +1057,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: cicRoomInfo
+      value: cicRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -1130,7 +1130,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: fireControlComputerTechInfo
+      value: fireControlComputerTechInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -1772,7 +1772,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: galleyRoomInfo
+      value: galleyRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -2025,7 +2025,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: officeRoomInfo
+      value: officeRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -2133,7 +2133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: sleepingQuartersRoomInfo
+      value: sleepingQuartersRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -2312,7 +2312,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: bridgeRoomInfo
+      value: bridgeRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -2671,7 +2671,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: cptRoomRoomInfo
+      value: cptRoomRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -3206,7 +3206,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: warRoomInfo
+      value: warRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -3372,7 +3372,6 @@ MonoBehaviour:
   activeList: {fileID: 402133654}
   nodeMat: {fileID: 2100000, guid: a0f062bfb8f8f3546b98cf862079445c, type: 2}
   nodeAudioSource: {fileID: 0}
-  nodeCanvas: {fileID: 0}
 --- !u!4 &955423567
 Transform:
   m_ObjectHideFlags: 0
@@ -3504,7 +3503,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: radioTechInfo
+      value: radioTechInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -3891,7 +3890,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: diningAreaTechInfo
+      value: diningAreaTechInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -4425,7 +4424,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: deckRoomInfo
+      value: deckRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -4703,7 +4702,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: sculluryRoomInfo
+      value: sculluryRoomInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -5821,7 +5820,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: bridgeTechInfo
+      value: bridgeTechInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
@@ -6275,7 +6274,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: startNode
+      value: startNode (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_TagString
@@ -6421,7 +6420,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_Name
-      value: gunTechInfo
+      value: gunTechInfo (audio)
       objectReference: {fileID: 0}
     - target: {fileID: 1541253926305175067, guid: 4b160de0103c6244bb4b5c0d412fbc02, type: 3}
       propertyPath: m_IsActive
