@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/USS Orleck Scene.unity
+    guid: fd039a6f40f9d6b4c85c29653360ec63
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4e3d89e14a0b4ac4084310d60c75bb19, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f17a27278ede72f44ae5006407d31fbc, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4c7ff8a292a6b16409d3e2fb6d642849, type: 2}
