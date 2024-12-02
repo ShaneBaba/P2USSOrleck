@@ -4,18 +4,29 @@ using UnityEngine;
 
 public class NodeLoadingScript : MonoBehaviour
 {
-    public Material myMaterial;
-    public GameObject myNodeList;
+    public Material myMaterial; // Skybox material for the new room
+    public GameObject myNodeList; // Nodes for the target room
+    public GameObject currentNodeList; // Nodes for the current room
 
-    // Start is called before the first frame update
-    void Start()
+    public void LoadNewRoom()
     {
-        
-    }
+        // Update the skybox to the new room's material
+        if (myMaterial != null)
+        {
+            RenderSettings.skybox = myMaterial;
+            DynamicGI.UpdateEnvironment(); // Updates lighting to reflect the new skybox
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Deactivate the current room's nodes
+        if (currentNodeList != null)
+        {
+            currentNodeList.SetActive(false);
+        }
+
+        // Activate the target room's nodes
+        if (myNodeList != null)
+        {
+            myNodeList.SetActive(true);
+        }
     }
 }
